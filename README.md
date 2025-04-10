@@ -61,6 +61,14 @@ Hexa Assistant is not just a simple assistant – it's a powerful AI that can pe
 - **Network Attacks & Website Hacking**: Execute advanced network attacks or target specific websites for penetration testing and exploitation.
 - **Reverse Engineering**: Hexa includes advanced tools for reverse engineering applications, including XOR, brute-forcing techniques, and analyzing obfuscated data.
 
+#### Content Engine
+- **Video Creation**: Automatically generate professional videos with AI-powered voiceovers, transitions, and effects using `video_creator.py`.
+- **Content Publishing**: Manage and publish content across multiple platforms (YouTube, Instagram, Twitter, etc.) with `publisher.py`.
+- **Blog Generation**: Create engaging blog posts with SEO optimization and content scheduling.
+- **Social Media Management**: Automate social media content creation and engagement across platforms.
+- **Multi-Platform Support**: Seamlessly publish content to YouTube, Instagram, Twitter, LinkedIn, Facebook, TikTok, Reddit, and Medium.
+- **Content Analytics**: Track performance metrics and engagement across all platforms.
+
 #### AI Automation
 - **Auto-Coding**: Hexa can automatically generate code, including hacking scripts or tools, based on user commands.
 - **Recon Engine**: Hexa can gather information about a target using OSINT (Open Source Intelligence) and prepare detailed recon reports.

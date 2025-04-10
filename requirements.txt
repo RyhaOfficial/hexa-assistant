@@ -18,6 +18,25 @@ pyttsx3==2.90
 SpeechRecognition==3.8.1
 pyAudio==0.2.11
 
+# Content Engine
+moviepy==1.0.3
+opencv-python==4.7.0
+gtts==2.3.2
+instabot==0.117.0
+tweepy==4.12.1
+facebook-sdk==3.1.0
+python-linkedin==4.1
+tiktok-api==0.1.0
+praw==7.7.0
+medium-api==0.1.0
+google-api-python-client==2.86.0
+google-auth-oauthlib==0.8.0
+google-auth-httplib2==0.1.0
+pytz==2023.3
+langdetect==1.0.9
+googletrans==3.1.0a0
+gradio==3.35.2
+
 # Web Scraping & OSINT
 beautifulsoup4==4.10.0
 requests-html==0.10.0
