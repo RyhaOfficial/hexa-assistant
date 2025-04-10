@@ -1,0 +1,79 @@
+{
+    "nmap": {
+        "install_method": "package_manager",
+        "dependencies": [],
+        "check_command": "nmap --version",
+        "version_command": "nmap --version | head -n 1",
+        "uninstall_method": "package_manager"
+    },
+    "metasploit": {
+        "install_method": "package_manager",
+        "dependencies": ["ruby", "postgresql"],
+        "check_command": "msfconsole --version",
+        "version_command": "msfconsole --version | head -n 1",
+        "uninstall_method": "package_manager"
+    },
+    "burp-suite": {
+        "install_method": "custom",
+        "download_url": "https://portswigger.net/burp/releases/download?product=community&version=latest&type=jar",
+        "post_install": [
+            "java -jar burpsuite_community.jar"
+        ],
+        "check_command": "java -jar burpsuite_community.jar --version",
+        "version_command": "java -jar burpsuite_community.jar --version",
+        "uninstall_method": "custom"
+    },
+    "sqlmap": {
+        "install_method": "github",
+        "github_url": "https://github.com/sqlmapproject/sqlmap.git",
+        "install_commands": [
+            "python setup.py install"
+        ],
+        "dependencies": ["python"],
+        "check_command": "sqlmap --version",
+        "version_command": "sqlmap --version",
+        "uninstall_method": "pip"
+    },
+    "wireshark": {
+        "install_method": "package_manager",
+        "dependencies": [],
+        "check_command": "wireshark --version",
+        "version_command": "wireshark --version | head -n 1",
+        "uninstall_method": "package_manager"
+    },
+    "john": {
+        "install_method": "package_manager",
+        "dependencies": [],
+        "check_command": "john --version",
+        "version_command": "john --version | head -n 1",
+        "uninstall_method": "package_manager"
+    },
+    "hydra": {
+        "install_method": "package_manager",
+        "dependencies": [],
+        "check_command": "hydra --version",
+        "version_command": "hydra --version | head -n 1",
+        "uninstall_method": "package_manager"
+    },
+    "aircrack-ng": {
+        "install_method": "package_manager",
+        "dependencies": [],
+        "check_command": "aircrack-ng --version",
+        "version_command": "aircrack-ng --version | head -n 1",
+        "uninstall_method": "package_manager"
+    },
+    "gobuster": {
+        "install_method": "package_manager",
+        "dependencies": [],
+        "check_command": "gobuster --version",
+        "version_command": "gobuster --version | head -n 1",
+        "uninstall_method": "package_manager"
+    },
+    "nikto": {
+        "install_method": "package_manager",
+        "dependencies": [],
+        "check_command": "nikto --version",
+        "version_command": "nikto --version | head -n 1",
+        "uninstall_method": "package_manager"
+    }
+} 
