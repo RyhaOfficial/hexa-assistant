@@ -25,6 +25,16 @@ urllib3==1.26.7
 html5lib==1.1
 ipwhois==0.12.1
 geocoder==1.38.1
+python-whois==0.8.0
+dnspython==2.2.1
+shodan==1.28.0
+hunter.io==0.1.0
+clearbit==0.1.7
+pipl==5.1.1
+aiohttp==3.8.1
+selenium==4.1.0
+webdriver-manager==3.5.2
+haveibeenpwned==0.1.0
 
 # Penetration Testing and Cybersecurity
 scapy==2.4.5
